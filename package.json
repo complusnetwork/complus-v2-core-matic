@@ -1,0 +1,32 @@
+{
+  "name": "@complus/v2-core-matic",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Core contracts for the Complus Network on top of Polygon - Matic Network",
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "author": "_sudosu_ | https://twitter.com/_sudosu_",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/complusnetwork/complus-v2-core-matic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/complusnetwork/complus-v2-core-matic/issues"
+  },
+  "keywords": [
+    "complus",
+    "polygon",
+    "matic"
+  ],
+  "scripts": {
+    "compile": "truffle compile",
+    "prepublishOnly": "yarn run compile && node scripts/prepublish.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "truffle": "^5.1.58"
+  }
+}
